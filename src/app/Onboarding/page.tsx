@@ -119,7 +119,7 @@ export default function Onboarding() {
           <h1 className="text-[24px] text-[#fff] font-[800]">Budget Lens</h1>
         </div>
       </div>
-      <div className="max-w-lg w-full text-center">
+      <div className="max-w-lg w-full text-center mt-[100px]">
         <h1 className="text-4xl font-extrabold mb-8">Welcome to Budget Lens</h1>
         <p className="text-lg mb-12">
           Let's get started by setting up your preferences to tailor your
