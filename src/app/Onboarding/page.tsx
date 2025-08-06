@@ -126,11 +126,8 @@ export default function Onboarding() {
           budgeting experience.
         </p>
       </div>
-      <div className="space-y-4 bg-white text-black rounded-xl shadow-2xl mx-4 md:mx-0">
-        <form
-          onSubmit={handleSubmit}
-          className="w-[500px] space-y-6 px-20 py-20"
-        >
+      <div className="space-y-4 bg-white text-black rounded-xl shadow-2xl w-full max-w-md mx-auto px-4">
+        <form onSubmit={handleSubmit} className="space-y-6 px-20 py-20">
           <div className="flex flex-col text-left">
             <label>Country:</label>
             <select
