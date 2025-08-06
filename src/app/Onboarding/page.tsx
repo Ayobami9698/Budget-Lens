@@ -127,7 +127,10 @@ export default function Onboarding() {
         </p>
       </div>
       <div className="space-y-4 bg-white text-black rounded-xl shadow-2xl w-full max-w-md mx-auto px-4">
-        <form onSubmit={handleSubmit} className="space-y-6 px-20 py-20">
+        <form
+          onSubmit={handleSubmit}
+          className="space-y-6 px-4 sm:px-10 md:px-20 py-10"
+        >
           <div className="flex flex-col text-left">
             <label>Country:</label>
             <select
